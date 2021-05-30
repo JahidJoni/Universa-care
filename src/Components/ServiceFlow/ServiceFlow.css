@@ -1,0 +1,31 @@
+.service-flow{
+    background: radial-gradient(80.11% 80.11% at 50% 19.89%, #F3F5F9 0%, rgba(243, 245, 249, 0.5) 100%), #FFFFFF;
+}
+.careviger{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #2B2D42;
+}
+.careviger-h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.005em;
+    color: #2B2D42;
+}
+.svg{
+    position: absolute;
+    z-index: 1;
+}
+.careviger-img{
+    z-index: 1000;
+    position: absolute;
+}
+.info{
+}
+

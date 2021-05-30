@@ -1,0 +1,47 @@
+.top-banner{
+    margin-top: 3px;
+    background: linear-gradient(44.42deg, #FFF1E1 28.4%, #FFFFFF 52.55%);
+}
+.banner-h1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #2B2D42;
+}
+.banner-p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2B2D42;
+}
+.appointment-btn{
+    background: #0047AB;
+    border-radius: 2px;
+    padding: 23px 31px;
+    margin: 0px 0px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+}
+.areas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: linear-gradient(208.56deg, #FFC03D -29.1%, #FFC107 64.78%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.12em;
+    color: #2B2D42;
+}
