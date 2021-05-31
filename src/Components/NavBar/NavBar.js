@@ -18,22 +18,22 @@ const NavBar = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ms-5">
                             <li className="nav-item">
-                                <a className="mx-2 nav-item" href="#">ABOUT <span className="divider">|</span></a>
+                                <link className="mx-2 nav-item" href="#">ABOUT <span className="divider">|</span></link>
                             </li>
                             <li className="nav-item">
-                                <a className="mx-2 nav-item" href="#">SERVICES <span className="divider">|</span></a>
+                                <link className="mx-2 nav-item" href="#">SERVICES <span className="divider">|</span></link>
                             </li>
                             <li className="nav-item">
-                                <a className="mx-2 nav-item" href="#" style={{color: '#0047AB'}}>CAREERS <span className="divider">|</span></a>
+                                <link className="mx-2 nav-item" href="#" style={{color: '#0047AB'}}>CAREERS <span className="divider">|</span></link>
                             </li>
                             <li className="nav-item">
-                            <a className="mx-2 nav-item" href="#">HOME CARE HEROES <span className="divider">|</span></a>
+                            <link className="mx-2 nav-item" href="#">HOME CARE HEROES <span className="divider">|</span></link>
                             </li>
                             <li className="nav-item">
-                            <a className="mx-2 nav-item" href="#">CONTACT</a>
+                            <link className="mx-2 nav-item" href="#">CONTACT</link>
                             </li>
                             <li>
-                            <a className="nav-item mx-5" href="#" style={{color: '#0047AB'}}> <FontAwesomeIcon className="pe-1" icon={faPhoneAlt} /> 866-986-3356</a>
+                            <link className="nav-item mx-5" href="#" style={{color: '#0047AB'}}> <FontAwesomeIcon className="pe-1" icon={faPhoneAlt} /> 866-986-3356</link>
                             </li>
                         </ul>
                     </div>
