@@ -9,9 +9,9 @@ const NavBar = () => {
         <section className="my-navbar">
             <nav className="navbar navbar-expand-lg navbar-light bg-white">
                 <div className="container-fluid">
-                    <a class="navbar-brand" href="#">
+                    <link class="navbar-brand" href="#">
                         <img className="logo ms-5" src={logo} alt="" />
-                    </a>
+                    </link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
