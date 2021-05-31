@@ -45,7 +45,7 @@ const Cares = () => {
             details: "4x higher coverage limit than traditional policies for computers and home office equipment."
         },
         {
-            Title: "Memory Care",
+            Title: "Memory Care 2",
             image: feature1,
             details: "4x higher coverage limit than traditional policies for computers and home office equipment."
         },
