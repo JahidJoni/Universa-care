@@ -1,0 +1,50 @@
+.appointment{
+    background: #395FA9;
+    position: relative;
+}
+.appointment-header{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+}
+.arrow-img{
+    position: absolute;
+    width: 3.2% !important;
+    bottom: -1rem;
+    right: 7rem;
+    padding: 0.5rem;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    border: none;
+    filter: drop-shadow(0px 4px 4px #EBEBEB);
+}
+.appointment-button{
+    background: #FFFFFF;
+    border-radius: 2px;
+    color: #0047AB !important;
+    border: 1px solid #FFFFFF ;
+}
+.responsive-appointment{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+.appointment-header{
+    text-align: center
+}
+.large-img{
+    display: none;
+}
+.responsive-appointment{
+    display: block;
+}
+.appointment-details{
+    text-align: center;
+}
+.arrow-img{
+    position: absolute;
+    width:10% !important;
+    bottom: -2rem;
+    right: 3rem;
+}
+}

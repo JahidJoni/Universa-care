@@ -2,11 +2,13 @@
     margin-top: 3px;
     background: linear-gradient(44.42deg, #FFF1E1 28.4%, #FFFFFF 52.55%);
 }
+.responsive-img{
+    display: none;
+}
 .banner-h1{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
     line-height: 59px;
     color: #2B2D42;
 }
@@ -24,7 +26,6 @@
     padding: 23px 31px;
     margin: 0px 0px;
     border: none;
-    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -45,3 +46,23 @@
     letter-spacing: 0.12em;
     color: #2B2D42;
 }
+
+@media only screen and (max-width: 600px) {
+    .top-banner{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .top-img{
+        display: none;
+    }
+    .responsive-img{
+       display: block;
+    }
+    .appointment-btn{
+        font-size: 14px;
+    }
+    .areas{
+        font-size: 14px;
+        letter-spacing: 0.02em;
+    }
+    }

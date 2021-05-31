@@ -1,7 +1,7 @@
-.service-flow{
+.careviger{
     background: radial-gradient(80.11% 80.11% at 50% 19.89%, #F3F5F9 0%, rgba(243, 245, 249, 0.5) 100%), #FFFFFF;
 }
-.careviger{
+.careviger-head{
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
@@ -9,23 +9,48 @@
     text-align: center;
     color: #2B2D42;
 }
-.careviger-h1{
+.flow-name{
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
     letter-spacing: -0.005em;
     color: #2B2D42;
 }
-.svg{
+.highlight{
+    color: #FF8400;
+}
+.flow{
+    position: relative;
+    z-index:1
+}
+.vector4{
     position: absolute;
-    z-index: 1;
+    left: 155px;
+    top: 5px;
+    z-index: -1;
 }
-.careviger-img{
-    z-index: 1000;
+.vector5{
     position: absolute;
+    left:151px;
+    top: 38px;
+    z-index: -1;
 }
-.info{
-}
+.careviger-details{
+    font-family: Montserrat;
+    margin: 20px 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: -0.005em;
+    color: #2B2D42;
 
+}
+@media only screen and (max-width: 1200px) {
+    .vector{
+        display: none
+    }           
+}

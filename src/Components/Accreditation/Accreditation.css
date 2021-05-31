@@ -1,0 +1,19 @@
+.accreditation{
+    /* height: 300px; */
+}
+.accreditation-head{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 37px;
+    letter-spacing: -0.005em;
+    color: #2B2D42;
+}
+.accreditation-details{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: -0.007em;
+    color: #2B2D42;
+}

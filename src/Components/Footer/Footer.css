@@ -1,0 +1,72 @@
+.logos{
+    left: -8px;
+    position: relative;
+}
+.submit-btn{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    background: #0047AB;
+    color: #FFFFFF;
+    border: none;
+}
+.footer-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF8400;
+    }
+.bold{
+    font-weight:800;
+}
+.coloured-line{
+    border: 2.5px solid #FF8400;
+    background-color: #FF8400;
+    width: 31px;
+    opacity:1;
+}
+.sign-up{
+    color: #5F6377;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5F6377;
+}
+.follow-us-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 172.4%;
+    color: #2B2D42;
+}
+
+@media only screen and (max-width: 600px) {
+
+.follow-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.follow-us-text{
+    position: relative;
+    top: 8px;
+}
+.submit-btn{
+    display: flex;
+    flex-direction: row-reverse
+}
+.footer-text{
+    text-align: center;
+}
+
+}

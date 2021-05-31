@@ -1,11 +1,13 @@
 import React from 'react';
 import logo from '../../images/UCLogo.svg'
 import './NavBar.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 
 const NavBar = () => {
     return (
         <section className="my-navbar">
-            <nav className="navbar navbar-expand-lg navbar-light">
+            <nav className="navbar navbar-expand-lg navbar-light bg-white">
                 <div className="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img className="logo ms-5" src={logo} alt="" />
@@ -31,7 +33,7 @@ const NavBar = () => {
                             <a className="mx-2 nav-item" href="#">CONTACT</a>
                             </li>
                             <li>
-                            <a className="nav-item ms-5" href="#" style={{color: '#0047AB'}}>866-986-3356</a>
+                            <a className="nav-item mx-5" href="#" style={{color: '#0047AB'}}> <FontAwesomeIcon className="pe-1" icon={faPhoneAlt} /> 866-986-3356</a>
                             </li>
                         </ul>
                     </div>
